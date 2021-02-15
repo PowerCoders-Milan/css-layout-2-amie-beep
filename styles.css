@@ -1,17 +1,32 @@
 /* USE CSS LAYOUTS HERE */
 
 .header {
+    font-size: large;
+    background-color: red;
+    
 
 }
 
 .main {
+    background-color: royalblue;
+    font-size: medium;margin: 10px;
+
+
 
 }
 
 .footer-grid {
+    display: grid;
+    position: sticky;
+    margin: 10px;
 
 }
 
 .footer-flex {
+    display: flex;
+    position: sticky;
+    margin: 10px;
+    padding: 10px;
+    background-color: pink;
 
 }
